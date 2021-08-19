@@ -1,0 +1,42 @@
+body{
+    background-image: url("../imgs/bg.jpg");
+    background-repeat: repeat;/* no-repeat repeat */
+    /*background-size: cover;*/
+}
+img{
+    max-width: 100%;
+}
+div{
+    width: 600px;
+    float: left;/* left right none */
+    /*height:500px ;*/
+    border: 1px solid #222222;
+    /*border-top:1px solid #222222;*/
+    /*border-right:1px solid #222222;*/
+    /*border-bottom:1px solid #222222;*/
+    /*border-left:1px solid #222222;*/
+    margin: 10px;
+    /*
+    margin-top:10px;
+    margin-right:10px;
+    margin-bottom:10px;
+    margin-left:10px;
+     */
+    padding:10px;
+    /*
+    padding-top:10px;
+    padding-right:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+     */
+    background-color: palegoldenrod;
+    /*background-image: url("../imgs/image1.jpg");*/
+    border-radius: 6px;
+}
+.dv2{
+    background-color: aquamarine;
+    width: 400px;
+}
+.dv2 p{ /* viết theo kiểu cha -con */
+    color:gray;
+}
