@@ -1,0 +1,20 @@
+h1{
+    color:#FF000090;
+}
+p{
+    color:#008000;
+    font-size: 18px;
+    font-weight: 400;/* 100-thin 300-light 400-normal 500-medium 600-semibold 700-bold 800-extrabold 900-black */
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    text-align: justify;/* left  right center */
+    text-transform: none;/* uppercase lowercase capitalize none */
+    text-decoration: none;/* underline line-through overline none */
+    width: 600px;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
