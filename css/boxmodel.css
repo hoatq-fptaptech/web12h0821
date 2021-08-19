@@ -40,3 +40,6 @@ div{
 .dv2 p{ /* viết theo kiểu cha -con */
     color:gray;
 }
+.dv2 .p2{
+    color:red;
+}
