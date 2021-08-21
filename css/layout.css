@@ -23,6 +23,9 @@ a{
     float: left;
     width: 100%;
     background-color: green;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 .nav{
     float: left;
@@ -30,8 +33,13 @@ a{
     border-bottom: 1px solid #dddddd;
     padding: 20px 0;
     margin-bottom: 20px;
+    position: fixed;/* lamf cho phần tử cố định theo màn hình */
+    top: 60px;
+    left: 0;
+    background-color: white;
 }
 .main{
+    margin-top: 145px;
     float: left;
     width: 100%;
 }
@@ -89,14 +97,14 @@ a{
 }
 .content{
     transition: all 300ms;
-    animation: light2;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
+    /*animation: light2;*/
+    /*animation-duration: 3s;*/
+    /*animation-iteration-count: infinite;*/
 }
 .content:hover{
     background-color:antiquewhite ;
     /*transform: translate(50px,50px);*/
-    transform: scale(1.2);
+    /*transform: scale(1.2);*/
     /*transform: rotate(45deg);*/
 }
 @keyframes light {
